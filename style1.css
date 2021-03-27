@@ -1,0 +1,55 @@
+/* Split the screen in half */
+.split {
+    height: 80%;
+    width: 50%;
+    top: 100px;
+    position: absolute;
+    margin-top: -50px;
+}
+
+/* Control the left side */
+.left {
+    left: 0px;
+    background-color: bisque;
+}
+
+/* Control the right side */
+.right {
+    right: 0px;
+    background-color: darkkhaki;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.picture {
+    cursor: pointer;
+}
+
+.modal-content {
+    margin-top: 100px;
+    align-content: center;
+}
+
+.img_modal {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+}
+
+.modal-body {
+    text-align: center
+}
