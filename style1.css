@@ -1,44 +1,23 @@
-/* Split the screen in half */
-.split {
-    height: 80%;
-    width: 50%;
-    top: 100px;
-    position: absolute;
-    margin-top: -50px;
+body{
+   background-image: linear-gradient(to top, rgba(255, 255, 252, 0.52), rgba(240, 14, 29, 0.73)),
+        url('rosebg.jpg');
 }
 
-/* Control the left side */
-.left {
-    left: 0px;
-    background-color: bisque;
-}
-
-/* Control the right side */
-.right {
-    right: 0px;
-    background-color: darkkhaki;
-}
-
-/* If you want the content centered horizontally and vertically */
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-/* Style the image inside the centered container, if needed */
-.centered img {
+.picture img{
     width: 150px;
-    height: 200px;
-    border-radius: 50%;
+    height: 150px;
+    padding: 2px;
 }
 
 .picture {
     cursor: pointer;
 }
-
+.img_family{
+    width: 400px;
+    height: 150px;
+    border: 2px solid #e65a9b;
+    padding: 2px;
+}
 .modal-content {
     margin-top: 100px;
     align-content: center;
